@@ -3,7 +3,7 @@ Face recognition using IBM Watson Cloud
 
 This is a small project that I am working on. It is using IBM-Watson Cloud and its api for python to
 recognize faces from an image. Images can be sourced local or from url. If you want more info on IBM Cloud,
-check [this link](https://cloud.ibm.com/apidocs/visual-recognition?code=python#detect-faces-in-an-image).
+check [this link](https://cloud.ibm.com/login) and for image recognition api, check [this link](https://cloud.ibm.com/apidocs/visual-recognition?code=python#detect-faces-in-an-image).
 
 For any references, I am using Linux Mint 19.1 Cinnamon with the latest updates to all packages and software.
 
@@ -31,7 +31,10 @@ on the image
 ## Installation
 
 To use this script, you need python3 and pip3
-(for debian/ubuntu based):```sudo apt install python3 pip3 ```
+(for debian/ubuntu based):
+```
+sudo apt install python3 pip3
+```
 
 Using pip, install all needed modules:
 ```
