@@ -1,4 +1,5 @@
 *.*
+!README.md
 !.gitattributes
 !.gitignore
 !readme.md
