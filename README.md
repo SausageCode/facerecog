@@ -31,14 +31,14 @@ on the image
 ## Installation
 
 To use this script, you need python3 and pip3
-(for debian/ubuntu based):''' sudo apt install python3 pip3 '''
+(for debian/ubuntu based):```sudo apt install python3 pip3 ```
 
 Using pip, install all needed modules:
-'''
+```
 pip3 install ibm_watson pillow pygame wheel
-'''
+```
 
-If your install of '''ibm_watson''' fails, then you might need another package.
+If your install of `ibm_watson` fails, then you might need another package.
 Error message usually indicates which.
  
 ##
