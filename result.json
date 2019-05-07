@@ -1,0 +1,82 @@
+{
+  "images": [
+    {
+      "faces": [
+        {
+          "age": {
+            "min": 33,
+            "max": 36,
+            "score": 0.7349042
+          },
+          "face_location": {
+            "height": 366,
+            "width": 339,
+            "left": 2276,
+            "top": 1261
+          },
+          "gender": {
+            "gender": "MALE",
+            "gender_label": "male",
+            "score": 0.9999802
+          }
+        },
+        {
+          "age": {
+            "min": 38,
+            "max": 41,
+            "score": 0.7481672
+          },
+          "face_location": {
+            "height": 338,
+            "width": 280,
+            "left": 1264,
+            "top": 1442
+          },
+          "gender": {
+            "gender": "FEMALE",
+            "gender_label": "female",
+            "score": 0.99999905
+          }
+        },
+        {
+          "age": {
+            "min": 30,
+            "max": 34,
+            "score": 0.5734778
+          },
+          "face_location": {
+            "height": 442,
+            "width": 337,
+            "left": 3275,
+            "top": 1241
+          },
+          "gender": {
+            "gender": "FEMALE",
+            "gender_label": "female",
+            "score": 0.9999467
+          }
+        },
+        {
+          "age": {
+            "min": 43,
+            "max": 46,
+            "score": 0.79790455
+          },
+          "face_location": {
+            "height": 410,
+            "width": 316,
+            "left": 501,
+            "top": 1332
+          },
+          "gender": {
+            "gender": "MALE",
+            "gender_label": "male",
+            "score": 0.9999988
+          }
+        }
+      ],
+      "image": "sampleimage.jpg"
+    }
+  ],
+  "images_processed": 1
+}
