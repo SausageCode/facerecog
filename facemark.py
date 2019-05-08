@@ -50,7 +50,7 @@ def evalimage():
 	# API
 	visual_recognition = VisualRecognitionV3(
 	    version='2018-03-19',
-	    iam_apikey='h64-fCCiLxbIKBJjwy4NzLvJIr8SS7MreQegZOycre5L')
+	    iam_apikey='{yourapikey}')#replace this with your key
 
 	print("Sending image")
 	
