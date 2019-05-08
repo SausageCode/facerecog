@@ -74,10 +74,18 @@ resize image, if too large, where you can sellect your size or remove this line 
 47	im = Image.open(imm)
 48	im.save(imm, quality=25)
 ```
-and the second thing is sending that image to cloud. Make sure that you select the correct version and api key.
-As of now, the correct version is `2018-03-19` and replace `{your_apikey}` with your key like 'youkey'.
+and the second thing is sending that image to cloud.
 This part exsists because when I was testing and if you are going to be using this, you won't need to re-evaluate the image every time if you are using the same image with the same evaluation resaults. Otherwise you can
 remove this condition.
+
+Also make sure that you select the correct version and api key.
+As of now, the correct version is `2018-03-19` and replace `{your_apikey}` with your key in lines:
+
+```
+50 visual_recognition = VisualRecognitionV3(
+51    version='2018-03-19',
+52    iam_apikey='{yourapikey}')#replace this with your key
+```
 
 There are no other parts that you should modify if you like the way this script works. If you want to integrate
 it into your project or build one around it, then just read the comments with code. The code is spaced and well
