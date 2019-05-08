@@ -50,19 +50,19 @@ def evalimage():
 	# API
 	visual_recognition = VisualRecognitionV3(
 	    version='2018-03-19',
-	    iam_apikey='BPzpVEoio9rzeQLgJPykWxohaHhYFpK-tlBlXLp2OgES')
+	    iam_apikey='h64-fCCiLxbIKBJjwy4NzLvJIr8SS7MreQegZOycre5L')
 
 	print("Sending image")
 	
 	# Take image and process it and get results
 	with open(imm, 'rb') as image:
-		data = visual_recognition.detect_faces(image).get_result()
+		faces = visual_recognition.detect_faces(image).get_result()
 
 	print("Image sent, files received")
 	
 	# Save results into json file
 	with open('result.json', 'w') as jsondata:
-	    json.dump(data, jsondata, indent=2)	
+	    json.dump(faces, jsondata, indent=2)	
 
 	return;
 
